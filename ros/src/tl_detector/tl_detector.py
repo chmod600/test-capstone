@@ -1,3 +1,12 @@
+# Credits for traffic light detector - Eric Tang of our group BlueBirdDynamics
+# We tried two different approaches, object detection API and using code
+# from the traffic light detector.
+# I was trying to get the object detection API work, but it was too slow on our environment
+# Eric compiled the code from our traffic sign detector project and using transfer learning
+# we are able to somewhat detect traffic lights.
+# The traffic light detector needs more training to be accurate, so we are now putting that
+# on hold and trying to tune the car to go 50 mph.
+
 #!/usr/bin/env python
 import rospy
 from std_msgs.msg import Int32
